@@ -48,7 +48,7 @@
 <summary>展开完整功能清单</summary>
 
 * **本地 AI 试炼场** — 本地模型管理、LLM 对话、图像分类、目标检测与图像特征对比，支持 NPU / GPU / CPU 加速
-* **硬件检测与性能** —— 温度 / 频率 / 功耗实时曲线、一键三烤、毒蘑菇测试、跑分排行、快速验机、磁盘健康
+* **硬件检测与性能** —— 温度 / 频率 / 功耗实时曲线、CPU / GPU 烤机、毒蘑菇测试、跑分排行、快速验机、磁盘健康
 * **格式转换** —— 图片 / 音视频 / Word / Excel / PPT / PDF 互转，OCR 识别、PDF 合并拆分、批量队列
 * **游戏工具箱** —— 可自定义布局的 FPS / 温度 / 负载悬浮层，虚拟局域网一键联机，运行库一键修复
 * **系统优化与安全** —— 垃圾清理 / 启动项管理 / 右键菜单管理 / 恶意软件拦截 / 沙盒分析 / 时间同步
@@ -56,6 +56,8 @@
 * **原生 Fluent 体验** —— Mica 材质、亮暗主题、中英双语、全局搜索、收藏拖拽排序
 
 </details>
+
+便携包附带 [.NET 8 TUI 兼容版](TubaWinUi3.Tui/README.md)，可在控制台里搜索和启动工具、管理收藏及查看硬件信息。
 
 <details>
 <summary>再看看常用页和设置中心</summary>
@@ -69,7 +71,7 @@
 
 [查看当前版本的全部功能截图](https://tubawinui3.cn/features)
 
-### 文档导航
+## 文档导航
 
 | 文档 | 内容 |
 |:-----|:-----|
@@ -79,7 +81,22 @@
 | [快速开始](guide/getting-started.md) | 系统要求、安装方式（Releases / Winget / Scoop / Store）、从源码构建 |
 | [架构](guide/architecture.md) | 目录结构、模块说明与实现细节 |
 | [常见问题](guide/faq.md) | UAC、杀毒误报、便携使用、日志位置等 |
+| [插件开发](插件开发文档.md) | 通过插件新增工具（API v2），SDK 以 NuGet 包分发（[在线版](https://tubawinui3.cn/dev/plugin)） |
 | [交流与链接](guide/community.md) | QQ 群、贡献者、相关链接、项目数据 |
+
+---
+
+## 贡献者
+
+感谢每一位提交代码、反馈问题、完善文档的朋友，这个工具箱因你们而更好。想加入他们？先看看[贡献指南](CONTRIBUTING.md)。
+
+<div align="center">
+
+<a href="https://github.com/luolangaga/tubatools/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=luolangaga/tubatools&max=30&columns=10" alt="Contributors" />
+</a>
+
+</div>
 
 ---
 
